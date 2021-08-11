@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="" lang="zxx">
 
 <head>
     <meta charset="utf-8">
@@ -348,6 +348,20 @@
                             Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
+
+                                (function(d, s, id){
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+
+                                    if (d.getElementById(id)) {
+                                        return;
+                                    }
+
+                                    js = d.createElement(s); js.id = id;
+                                    js.src = "//connect.facebook.net/en_US/messenger.Extensions.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+
+                                }(document, 'script', 'Messenger'));
+                                
                             </script> Todos los derechos reservados | Esta plantilla está hecha <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib | Efrain May</a>
                         </p>
                     </div>
